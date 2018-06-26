@@ -1,9 +1,9 @@
-package ictgradschool.industry.lab12.bounce;
+package ictgradschool.industry.lab_swingii.bounce;
 
 import java.awt.*;
 
 /**
- * Implementation of the ictgradschool.industry.lab12.bounce.Painter interface that delegates drawing to a
+ * Implementation of the Painter interface that delegates drawing to a
  * java.awt.Graphics object.
  * 
  * @author Ian Warren
@@ -13,7 +13,7 @@ public class GraphicsPainter implements Painter {
 	private Graphics g;
 
 	/**
-	 * Creates a ictgradschool.industry.lab12.bounce.GraphicsPainter object and sets its Graphics delegate.
+	 * Creates a GraphicsPainter object and sets its Graphics delegate.
 	 */
 	public GraphicsPainter(Graphics g) {
 		this.g = g;

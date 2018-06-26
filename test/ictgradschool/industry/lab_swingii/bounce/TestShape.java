@@ -1,4 +1,4 @@
-package ictgradschool.industry.lab12.bounce;
+package ictgradschool.industry.lab_swingii.bounce;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -6,7 +6,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 /**
- * Test cases to test classes ictgradschool.industry.lab12.bounce.Shape/ictgradschool.industry.lab12.bounce.RectangleShape.
+ * Test cases to test classes Shape/RectangleShape.
  * 
  * @author Ian Warren
  */

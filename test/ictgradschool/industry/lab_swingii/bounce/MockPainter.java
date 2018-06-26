@@ -1,15 +1,13 @@
-package ictgradschool.industry.lab12.bounce;
-
-import ictgradschool.industry.lab12.bounce.Painter;
+package ictgradschool.industry.lab_swingii.bounce;
 
 import java.awt.*;
 import java.util.Arrays;
 
 /**
- * Implementation of the ictgradschool.industry.lab12.bounce.Painter interface that does not actually do any
- * painting. A ictgradschool.industry.lab12.bounce.MockPainter implementation responds to ictgradschool.industry.lab12.bounce.Painter requests by
- * logging the request in a buffer. The contents of a ictgradschool.industry.lab12.bounce.MockPainter object's
- * log can be retrieved by a call to toString() on the ictgradschool.industry.lab12.bounce.MockPainter.
+ * Implementation of the Painter interface that does not actually do any
+ * painting. A MockPainter implementation responds to Painter requests by
+ * logging the request in a buffer. The contents of a MockPainter object's
+ * log can be retrieved by a call to toString() on the MockPainter.
  * 
  * @author Ian Warren
  */
@@ -21,7 +19,7 @@ public class MockPainter implements Painter {
 	private Color color = Color.black;
 
 	/**
-	 * Returns the contents of this ictgradschool.industry.lab12.bounce.MockPainter's log.
+	 * Returns the contents of this MockPainter's log.
 	 */
     @Override
 	public String toString() {

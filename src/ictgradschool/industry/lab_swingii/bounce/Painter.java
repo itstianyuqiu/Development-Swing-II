@@ -1,4 +1,4 @@
-package ictgradschool.industry.lab12.bounce;
+package ictgradschool.industry.lab_swingii.bounce;
 
 import java.awt.*;
 
@@ -27,12 +27,12 @@ public interface Painter {
 	public void drawLine(int x1, int y1, int x2, int y2);
 
 	/**
-	 * Sets the color of this ictgradschool.industry.lab12.bounce.Painter to the given value.
+	 * Sets the color of this Painter to the given value.
 	 */
 	public void setColor(Color color);
 
 	/**
-	 * Gets the current color of this ictgradschool.industry.lab12.bounce.Painter.
+	 * Gets the current color of this Painter.
 	 */
 	public Color getColor();
 
